@@ -1,0 +1,82 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.avatar {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: -5rem;
+    object-fit: cover;
+    height: 90vh;
+}
+
+.intro-content {
+    height: 100vh;
+    width: 100vw;
+    padding: 4rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hi {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.name {
+    color: yellow;
+    font-weight: bolder;
+}
+
+.webdev {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.desc {
+    margin-top: 1rem;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #A0A0A0;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    border: none;
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(255, 255, 56);
+}
+
+.btn-img {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1.25rem;
+}
