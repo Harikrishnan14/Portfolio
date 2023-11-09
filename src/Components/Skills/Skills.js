@@ -1,12 +1,12 @@
 import React from 'react'
 import './Skills.css'
-import { skills } from '../../Data/Constants'
+import { skills } from '../Assets/data/skills'
 
 const Skills = () => {
   return (
     <section id='skills'>
       <h2 className='skills-title'>Skills</h2>
-      <p className='skills-desc'>Here are some of my skills on which i have been working on for the past 2 years</p>
+      <p className='skills-desc'>Here are some of my skills on which i have been working on for<br />the past few years</p>
       <div className="skills-container">
         {skills.map((item) => (
           <div className='skill'>

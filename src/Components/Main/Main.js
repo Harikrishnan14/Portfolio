@@ -1,8 +1,8 @@
 import React from 'react'
 import './Main.css'
-import Avatar from '../Assets/Avatar.png'
-import Github from '../Assets/Github.png'
-import Resume from '../Assets/Resume.png'
+import Avatar from '../Assets/images/Avatar.png'
+import Github from '../Assets/images/Github.png'
+import Resume from '../Assets/images/Resume.png'
 import { Link } from 'react-scroll'
 
 const Main = () => {
