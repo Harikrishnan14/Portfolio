@@ -80,6 +80,11 @@
     display: flex;
     flex-direction: column;
     gap: 14px;
+    transition: all 0.3s ease-in;
+}
+
+.projects:hover {
+    transform: translateY(-5px);
 }
 
 .projects-img {

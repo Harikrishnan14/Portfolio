@@ -1,0 +1,90 @@
+#experience {
+    width: 100%;
+    max-width: 75rem;
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+}
+
+.experience-main-title {
+    margin-top: 8%;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.experience-main-desc {
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    color: #C8C8C8;
+}
+
+.TimeLine-container {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.TimeLine {
+    border-left: 2px solid yellow;
+    max-width: 65%;
+    /* transition: all 0.3s ease-in; */
+}
+
+.TimeLineItem {
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid yellow;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/* .TimeLine:hover {
+    transform: translateY(-5px);
+} */
+
+.role {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.company {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(177, 178, 179, 0.7);
+}
+
+.date {
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.tags {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px !important;
+    align-items: center;
+}
+
+.tag {
+    font-size: 13px !important;
+    font-weight: 400;
+    color: #707070;
+    padding: 4px 10px;
+    border: 1px solid #707070;
+    border-radius: 20px;
+}
+
+.description {
+    margin-top: 10px;
+}
