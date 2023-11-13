@@ -33,7 +33,7 @@ const Navbar = () => {
                 <Link to='experience' smooth={true} offset={-10} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Experience</Link>
                 <Link to='projects' smooth={true} offset={0} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Projects</Link>
                 <Link to='education' spy={true} smooth={true} offset={-10} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Education</Link>
-                <Link to='contact' spy={true} smooth={true} offset={-10} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Contact</Link>
+                <Link to='contact' spy={true} smooth={true} offset={0} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Contact</Link>
             </div>
 
         </nav>

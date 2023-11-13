@@ -57,8 +57,14 @@ p {
 }
 
 .BurgerMenu {
+    display: none;
     object-fit: cover;
     height: 3rem;
+    filter: brightness(0) invert(1);
+}
+
+.BurgerMenu:hover {
+    filter: none;
 }
 
 .burger-menu {
@@ -79,5 +85,17 @@ p {
     padding: 0.5rem 3rem;
     margin: 0.25rem;
     background: rgb(30, 30, 30);
+    border-radius: 1rem;
+}
 
+@media screen and (max-width: 800px) {
+    .BurgerMenu {
+        display: flex;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .contact-btn {
+        display: none;
+    }
 }
