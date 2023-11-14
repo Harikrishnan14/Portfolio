@@ -26,6 +26,6 @@ export const experience = [
       "CSS",
       "Bootstrap",
       "MySQL",
-  ],
+    ],
   },
 ];

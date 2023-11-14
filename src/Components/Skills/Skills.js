@@ -8,12 +8,12 @@ const Skills = () => {
       <h2 className='skills-title'>Skills</h2>
       <p className='skills-desc'>Here are some of my skills on which i have been working on for<br />the past few years</p>
       <div className="skills-container">
-        {skills.map((item) => (
-          <div className='skill'>
+        {skills.map((item, m_id) => (
+          <div className='skill' key={m_id}>
             <h2 className='skills-item-title'>{item.title}</h2>
             <div className="skill-list">
-              {item.skills.map( (skill) => (
-                <div className="skill-item">
+              {item.skills.map( (skill, id) => (
+                <div className="skill-item" key={id}>
                   <img className='skill-img' src={skill.image} alt="" />
                   {skill.name}
                 </div>

@@ -38,8 +38,8 @@ const Projects = () => {
 
       <div className="projects-container">
 
-        {toggle === "all" && projects.map((project) => (
-          <div key={project.id} className="projects">
+        {toggle === "all" && projects.map((project, id) => (
+          <div key={id} className="projects">
             <div className="img">
               <img className='projects-img' src={project.image} alt="" />
             </div>
@@ -49,16 +49,12 @@ const Projects = () => {
                 {project.title}
               </div>
               <div className="project-desc">
-                {project.description ? project.description.slice(0, 150) : ""}...
+                {project.description}
               </div>
             </div>
 
-            <div className="tags">
-              {project.tags.map((tag) => (
-                <div className="tag">
-                  {tag}
-                </div>
-              ))}
+            <div className="github-link">
+              <a href={project.github} target='__blank' className='project-github-link'>View in Github &#8599;</a>
             </div>
 
           </div>
@@ -77,16 +73,12 @@ const Projects = () => {
                   {project.title}
                 </div>
                 <div className="project-desc">
-                  {project.description ? project.description.slice(0, 150) : ""}...
+                  {project.description}
                 </div>
               </div>
 
-              <div className="tags">
-                {project.tags.map((tag) => (
-                  <div className="tag">
-                    {tag}
-                  </div>
-                ))}
+              <div className="github-link">
+                <a href={project.github} target='__blank' className='project-github-link'>View in Github &#8599;</a>
               </div>
 
             </div>

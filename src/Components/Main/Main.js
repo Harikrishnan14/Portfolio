@@ -3,7 +3,8 @@ import './Main.css'
 import Avatar from '../Assets/images/Avatar.png'
 import Github from '../Assets/images/Github.png'
 import Resume from '../Assets/images/Resume.png'
-import { Link } from 'react-scroll'
+import { links } from '../Assets/data/links'
+
 
 const Main = () => {
   return (
@@ -14,18 +15,18 @@ const Main = () => {
             <span className='webdev'>Web Developer</span>
             <p className='desc'>I'm a passionate web developer with a keen eye for design and a love for clean,<br /> efficient code. I specialize in creating user-friendly websites that make<br /> a lasting impact. Let's collaborate to bring your digital vision to life.</p>
             <div className="button">
-                <Link to=''>
+                <a href={links.Resume} target='__blank'>
                     <button className='btn'>
                         <img className='btn-img' src={Resume} alt="" />
                         <p>Check Resume</p>
                     </button>
-                </Link>
-                <Link to=''>
+                </a>
+                <a href={links.Github} target='__blank'>
                     <button className='btn'>
                         <img className='btn-img' src={Github} alt="" style={{marginRight: "5px"}}/>
                         <p>Github Profile</p>
                     </button>
-                </Link>
+                </a>
             </div>
         </div>
         <img className='avatar' src={Avatar} alt="" />

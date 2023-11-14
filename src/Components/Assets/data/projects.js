@@ -22,14 +22,8 @@ export const projects = [
         title: "FER For Paralyzed Patients",
         date: "",
         description:
-            "Face Emotion Recognition System tailored for paralyzed patients, employing advanced computer vision algorithms. Enabled individuals with limited mobility to communicate emotions effectively, fostering a more inclusive and responsive healthcare environment. Demonstrated expertise in artificial intelligence, programming, and empathetic technology design.",
+            "Designed empathetic AI for paralyzed patients—advanced face emotion recognition fosters inclusive healthcare communication, showcasing expertise in AI, programming, and empathetic tech design.",
         image: FER,
-        tags: [
-            "Machine Learning",
-            "Python",
-            "Arduino",
-            "Android Studio",
-        ],
         category: "machine learning",
         github: "https://github.com/AsHwInSkV/Face-Emotion-Recognition-System-For-Paralyzed-Patients.git",
     },
@@ -38,12 +32,8 @@ export const projects = [
         title: "GDG Finder",
         date: "",
         description:
-            "GDG Finder is a cutting-edge mobile application using Kotlin to streamline the process of locating Google Developer Groups (GDGs) worldwide. Leveraging Kotlin's concise and expressive syntax, the project involved implementing geolocation services, integrating APIs for real-time data retrieval, and ensuring a seamless user experience. Successfully delivered a user-friendly solution that enhances the accessibility of GDGs, contributing to the global developer ecosystem.",
+            "Innovative Kotlin-based GDG Finder app simplifies global Google Developer Group location, utilizing geolocation, APIs, and a sleek UX for enhanced GDG accessibility, fostering the developer ecosystem.",
         image: GDGFinder,
-        tags: [
-            "Kotlin",
-            "Android Studio",
-        ],
         category: "android app",
         github: "https://github.com/Harikrishnan14/GDG-Finder-App.git",
     },
@@ -52,14 +42,8 @@ export const projects = [
         title: "eNotebook",
         date: "",
         description:
-            "eNotebook is a comprehensive digital notebook application. Enables users to create, organize, and manage digital notes, fostering productivity and information management. Implemented features such as user authentication, real-time collaboration, and responsive UI design, delivering a seamless and user-friendly experience.",
+            "eNotebook: Streamlined digital notebook with user authentication, real-time collaboration, and responsive UI for efficient note creation, organization, and management, enhancing productivity and user experience.",
         image: eNotebook,
-        tags: [
-            "MongoDB",
-            "Express Js",
-            "React Js",
-            "Node Js",
-        ],
         category: "web app",
         github: "https://github.com/Harikrishnan14/eNotebookApp-MERN.git",
     },
@@ -68,13 +52,8 @@ export const projects = [
         title: "NewsApp",
         date: "",
         description:
-            "NewsApp is a dynamic news application, utilizing the power of the NewsAPI to provide users with up-to-date and personalized news content. The NewsApp not only allowed users to browse the latest headlines but also offered the ability to filter news by category.",
+            "NewsApp: Dynamic news application powered by NewsAPI. Stay updated with personalized, categorized news. Browse latest headlines, filter by category for a tailored news experience.",
         image: NewsApp,
-        tags: [
-            "React Js",
-            "News API",
-            "Bootstrap"
-        ],
         category: "web app",
         github: "https://github.com/Harikrishnan14/NewsApp-React.git",
     },
@@ -83,12 +62,8 @@ export const projects = [
         title: "TextUtils",
         date: "",
         description:
-            "TextUtils is a versatile text manipulation tool that allows users to analyze, format, and transform text in various ways. Implemented user-friendly features such as text input, character count, word count, and the ability to change text case (uppercase and lowercase). Through this project, I honed my skills in React, state management, and responsive web design, demonstrating my ability to create functional and user-centric web applications.",
+            "TextUtils: Empowering text manipulation with user-friendly features. Honed React, state management, and responsive design skills for functional, user-centric web apps.",
         image: TextUtils,
-        tags: [
-            "React Js",
-            "Bootstrap",
-        ],
         category: "web app",
         github: "https://github.com/Harikrishnan14/TextUtils-React.git",
     },
@@ -97,14 +72,8 @@ export const projects = [
         title: "Quora - Clone",
         date: "",
         description:
-            "Quora - Clone is a robust and functional blog application using Django, with a primary emphasis on enhancing core functionalities rather than design aesthetics. Leveraged Django's powerful features to implement a seamless user experience, focusing on features such as user authentication, content creation, and comment management. Prioritized functionality and performance optimization to create a highly responsive and efficient blog platform, showcasing a deep understanding of backend development and Django framework intricacies.",
+            "Django-based Quora Clone prioritizes core functionalities over design, emphasizing seamless user experience, authentication, content creation, and comment management for optimal performance.",
         image: Quora,
-        tags: [
-            "HTML",
-            "CSS",
-            "Python - Django",
-            "Bootstrap",
-        ],
         category: "web app",
         github: "https://github.com/Harikrishnan14/Quora-Django.git",
     },
@@ -113,12 +82,8 @@ export const projects = [
         title: "Dev Byte Viewer",
         date: "",
         description:
-            "Dev Byte Viewer is a dynamic and user-friendly application built entirely in Kotlin. Leveraging my expertise in Kotlin, I implemented key features that enhance the user experience and streamline content consumption for developers. The app serves as a comprehensive platform for viewing and sharing bite-sized development tutorials, showcasing my proficiency in both mobile app development and Kotlin programming.",
+            "I crafted Dev Byte Viewer in Kotlin, a dynamic app for seamless developer tutorial exploration. My expertise shines in user-friendly design, optimizing content consumption and sharing.",
         image: DevByte,
-        tags: [
-            "Kotlin",
-            "Android Studio",
-        ],
         category: "android app",
         github: "https://github.com/Harikrishnan14/Dev-Byte-Viewer-App.git",
     },
@@ -127,12 +92,8 @@ export const projects = [
         title: "Mars Real Estate",
         date: "",
         description:
-            "This app allows users to explore virtual properties on Mars, providing a unique and immersive experience. Through strategic use of Kotlin, I optimized performance and ensured a smooth user interface, contributing to the success of the project and highlighting my skills in modern mobile application development.",
+            "I leveraged Kotlin to enhance performance and create a seamless user interface in this Mars exploration app, showcasing my expertise in modern mobile development.",
         image: MarsReatEstate,
-        tags: [
-            "Kotlin",
-            "Android Studio",
-        ],
         category: "android app",
         github: "https://github.com/Harikrishnan14/Mars-Real-Estate-App.git",
     },
@@ -141,12 +102,8 @@ export const projects = [
         title: "Track My Sleep Quality",
         date: "",
         description:
-            "This project involved creating a user-friendly interface to monitor and analyze sleep patterns, providing valuable insights into sleep quality. The use of Kotlin facilitated efficient code development and maintenance, contributing to the overall success of the application in providing users with valuable insights into their sleep habits.",
+            "Developed a user-friendly sleep monitoring interface using Kotlin for efficient code development. Delivered valuable insights into sleep patterns, enhancing user understanding of sleep habits.",
         image: TrackMySleep,
-        tags: [
-            "Kotlin",
-            "Android Studio",
-        ],
         category: "android app",
         github: "https://github.com/Harikrishnan14/Track-My-Sleep-Quality-App.git",
     },
@@ -155,12 +112,8 @@ export const projects = [
         title: "Guess It",
         date: "",
         description:
-            "Guess It App showcases my expertise in Kotlin, offering a dynamic and engaging guessing game experience. Built with precision and creativity, the project seamlessly blends user-friendly design with robust functionality. Users enjoy a captivating interface while challenging their intellect. This app represents my commitment to delivering innovative solutions through Kotlin, highlighting my proficiency in mobile app development.",
+            "I crafted the Guess It App in Kotlin, showcasing expertise in dynamic guessing games. Precision, creativity, and user-friendly design converge for an engaging mobile experience, highlighting my development proficiency.",
         image: GuessIt,
-        tags: [
-            "Kotlin",
-            "Android Studio",
-        ],
         category: "android app",
         github: "https://github.com/Harikrishnan14/Guess-It-App.git",
     },
@@ -169,16 +122,8 @@ export const projects = [
         title: "Online Movie Ticket Booking",
         date: "",
         description:
-            "Online Movie Ticket Booking system is a full stack web application streamlining the ticketing process for enhanced user experience. Leveraged strong analytical and problem-solving skills to ensure seamless functionality, optimizing the platform for both customers and administrators. Demonstrated proficiency in web development and database management, contributing to the project's success.",
+            "Optimized online movie ticket system for user-friendly experience. Applied analytical skills in web development and database management, ensuring seamless functionality for customers and administrators.",
         image: OMTB,
-        tags: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "PHP",
-            "MySQL",
-            "XAMPP",
-        ],
         category: "web app",
         github: "https://github.com/Harikrishnan14/Online-Movie-Ticket-Booking-System.git",
     },
@@ -187,12 +132,8 @@ export const projects = [
         title: "Trivia",
         date: "",
         description:
-            "Trivia App seamlessly blends innovation and engagement. Through meticulous coding and intuitive design, I've transformed the concept of trivia into a dynamic and user-friendly experience. The app's sleek interface and robust functionality showcase my proficiency in Kotlin, making it a testament to my expertise in mobile app development.",
+            "Innovative trivia app, a seamless blend of coding prowess and intuitive design. I've transformed trivia into a dynamic, user-friendly experience, showcasing expertise in Kotlin for sleek interface and robust functionality.",
         image: Trivia,
-        tags: [
-            "Kotlin",
-            "Android Studio",
-        ],
         category: "android app",
         github: "https://github.com/Harikrishnan14/Trivia-App.git",
     },
@@ -201,12 +142,8 @@ export const projects = [
         title: "Color My Views",
         date: "",
         description:
-            "Color My Views App is a dynamic Android app powered by Kotlin, designed to enhance user interface customization. With intuitive functionality, it seamlessly transforms views with vibrant hues, allowing users to personalize their app experience. This project showcases my proficiency in Kotlin and my commitment to creating visually appealing, user-centric applications.",
+            "Dynamic Android app, fueled by Kotlin, elevating UI customization. Seamlessly infuse vibrant hues, showcasing my Kotlin expertise and dedication to user-centric, visually stunning applications.",
         image: ColorMyViews,
-        tags: [
-            "Kotlin",
-            "Android Studio",
-        ],
         category: "android app",
         github: "https://github.com/Harikrishnan14/ColorMyViews-App.git",
     },
@@ -215,12 +152,8 @@ export const projects = [
         title: "Dice Roller",
         date: "",
         description:
-            "Elevating randomness with precision, my Dice Roller App, crafted in Kotlin, seamlessly transforms decision-making. Harnessing the power of elegant code, it delivers a sleek and intuitive interface, ensuring an immersive and reliable dice-rolling experience. Precision meets playfulness, as this app adds a touch of innovation to the age-old randomness of dice, making it an engaging and efficient tool for any tabletop adventure or impromptu decision-making.",
+            "Precision meets playfulness in my Kotlin Dice Roller App—seamlessly transforming decision-making with elegant code, delivering a sleek interface for an immersive and reliable dice-rolling experience.",
         image: DiceRoller,
-        tags: [
-            "Kotlin",
-            "Android Studio",
-        ],
         category: "android app",
         github: "https://github.com/Harikrishnan14/Dice-Roller-App.git",
     },
@@ -229,12 +162,8 @@ export const projects = [
         title: "Dessert Pusher",
         date: "",
         description:
-            "Dessert Pusher App is a user-friendly mobile application using Kotlin. The app allows users to effortlessly select their preferred desserts, with the total amount dynamically updating in real-time. One of the key features of the app is its robust handling of device orientation changes. I implemented a seamless solution to ensure that data persistence is maintained when users rotate their devices.",
+            "Dessert Pusher App in Kotlin enables easy dessert selection with real-time updates. It excels in handling device orientation changes, ensuring seamless data persistence during rotations.",
         image: DessertPusher,
-        tags: [
-            "Kotlin",
-            "Android Studio",
-        ],
         category: "android app",
         github: "https://github.com/Harikrishnan14/Dessert-Pusher-App.git",
     },

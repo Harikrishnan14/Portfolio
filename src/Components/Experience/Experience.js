@@ -10,8 +10,8 @@ const Experience = () => {
 
             <div className="TimeLine-container">
 
-                {experience.map((experience) => (
-                    <div className="TimeLine" key={experience.id}>
+                {experience.map((experience, id) => (
+                    <div className="TimeLine" key={id}>
                         <div className="TimeLineItem">
 
                             <div className="role">
@@ -28,8 +28,8 @@ const Experience = () => {
                             </div>
 
                             <div className="tags">
-                                {experience.tags.map((tag) => (
-                                    <div className="tag">
+                                {experience.tags.map((tag, id) => (
+                                    <div className="tag" key={id}>
                                         {tag}
                                     </div>
                                 ))}
