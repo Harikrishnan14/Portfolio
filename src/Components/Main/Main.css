@@ -1,6 +1,6 @@
 #intro {
     height: calc(100vh - 4rem);
-    width: 100%;
+    width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
@@ -11,7 +11,7 @@
     position: absolute;
     z-index: -1;
     top: 0;
-    right: -7rem;
+    right: -10rem;
     object-fit: cover;
     height: 90vh;
 }
