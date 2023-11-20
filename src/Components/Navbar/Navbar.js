@@ -13,7 +13,7 @@ const Navbar = () => {
         <nav className='Navbar'>
             <img className='logo' src={Logo} alt="" />
             <div className="nav-menu">
-                <Link to='intro' smooth={true} offset={-100} duration={1000} className='nav-menu-item'>About</Link>
+                <Link to='intro' smooth={true} offset={-150} duration={1000} className='nav-menu-item'>About</Link>
                 <Link to='skills' smooth={true} offset={-35} duration={1000} className='nav-menu-item'>Skills</Link>
                 <Link to='experience' smooth={true} offset={-10} duration={1000} className='nav-menu-item'>Experience</Link>
                 <Link to='projects' smooth={true} offset={0} duration={1000} className='nav-menu-item'>Projects</Link>
