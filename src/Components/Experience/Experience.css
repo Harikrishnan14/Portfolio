@@ -17,6 +17,7 @@
 .experience-main-desc {
     text-align: center;
     font-weight: 100;
+    padding: 0px 30px;
     margin-bottom: 40px;
     margin-top: 10px;
     color: #C8C8C8;
@@ -90,4 +91,13 @@
 .description {
     margin-top: 10px;
     color: #C8C8C8;
+}
+
+@media screen and (max-width: 510px) {
+    .TimeLine-container {
+        margin-bottom: 3rem;
+    }
+    .experience-main-desc {
+        margin-bottom: 35px;
+    }
 }
