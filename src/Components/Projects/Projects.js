@@ -36,6 +36,31 @@ const Projects = () => {
         </div>
       </div>
 
+      <div className='category-res'>
+        <div className="button-group">
+
+          {toggle === 'all' ?
+            <button style={{ background: "yellow", color: "black" }} value="all" onClick={() => setToggle('all')} className='all toggle-button'>All</button> :
+            <button value="all" onClick={() => setToggle('all')} className='all toggle-button'>All</button>
+          }
+
+          {toggle === 'web app' ?
+            <button style={{ background: "yellow", color: "black" }} value="web app" onClick={() => setToggle('web app')} className='toggle-button'>Web</button> :
+            <button value="web app" onClick={() => setToggle('web app')} className='toggle-button'>Web</button>
+          }
+
+          {toggle === 'android app' ?
+            <button style={{ background: "yellow", color: "black" }} value="android app" onClick={() => setToggle('android app')} className='toggle-button'>Android</button> :
+            <button value="android app" onClick={() => setToggle('android app')} className='toggle-button'>Android</button>
+          }
+
+          {toggle === 'machine learning' ?
+            <button style={{ background: "yellow", color: "black" }} value="machine learning" onClick={() => setToggle('machine learning')} className='ml toggle-button'>ML</button> :
+            <button value="machine learning" onClick={() => setToggle('machine learning')} className='ml toggle-button'>ML</button>
+          }
+        </div>
+      </div>
+
       <div className="projects-container">
 
         {toggle === "all" && projects.map((project, id) => (

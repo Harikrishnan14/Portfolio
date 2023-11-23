@@ -28,6 +28,7 @@
     margin-bottom: 35px;
     margin-top: 10px;
     color: #C8C8C8;
+    padding: 0px 30px;
 }
 
 .category {
@@ -132,4 +133,26 @@
 .project-github-link:hover {
     color: #C8C8C8;
     border-bottom: 1px solid #C8C8C8;
+}
+
+.category-res {
+    display: none;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 680px) {
+    .category {
+        display: none;
+    }
+    .category-res {
+        display: flex;
+        justify-content: center;
+    }
+    .projects-main-desc {
+        margin-bottom: 30px;
+    }
+    .projects-container {
+        margin-bottom: 3rem;
+    }
 }
