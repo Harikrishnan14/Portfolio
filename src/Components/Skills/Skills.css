@@ -9,7 +9,7 @@
 
 .skills-container {
     width: 100%;
-    padding: 0px 20px;
+    padding: 0px 15px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
@@ -34,6 +34,7 @@
 
 .skills-desc {
     text-align: center;
+    font-size: 18px;
     font-weight: 100;
     padding: 0px 30px;
     margin-bottom: 50px;
@@ -74,10 +75,17 @@
 }
 
 @media screen and (max-width: 510px) {
+    .skills-title {
+        font-size: 38px;
+    }
     .skills-container {
         margin-bottom: 3rem;
     }
+    .skills-item-title {
+        font-size: 20px;
+    }
     .skills-desc {
+        font-size: 14px;
         margin-bottom: 35px;
     }
 }

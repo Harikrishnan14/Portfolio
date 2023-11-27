@@ -13,6 +13,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 0px 15px;
 }
 
 .projects-main-title {
@@ -57,12 +58,10 @@
 
 .ml {
     border-radius: 0px 10px 10px 0px;
-    ;
 }
 
 .all {
     border-radius: 10px 0px 0px 10px;
-    ;
 }
 
 .toggle-button:hover {
@@ -139,6 +138,28 @@
     display: none;
     font-size: 12px;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 520px) {
+    .projects-main-title {
+        font-size: 38px;
+    }
+    .projects-main-desc {
+        font-size: 14px;
+    }
+    .projects {
+        cursor: none;
+        height: auto;
+    }
+    .projects:hover {
+        transform: none;
+    }
+    .project-title {
+        font-size: 18px;
+    }
+    .project-desc {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 680px) {

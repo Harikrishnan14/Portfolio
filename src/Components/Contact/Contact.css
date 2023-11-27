@@ -92,4 +92,10 @@
     .contact-main-desc {
         margin-bottom: 35px;
     }
+    .contact-main-title {
+        font-size: 38px;
+    }
+    .contact-main-desc {
+        font-size: 14px;
+    }
 }

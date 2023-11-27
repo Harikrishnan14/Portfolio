@@ -14,10 +14,10 @@ const Education = () => {
                     <div className="education" key={education.id}>
                         <div className="educationitem">
 
-                            <div className="role">
+                            <div className="institute">
                                 {education.Institute}
                             </div>
-                            <div className="company">
+                            <div className="program">
                                 {education.program}
                             </div>
                             <div className="date">

@@ -38,7 +38,6 @@
     max-width: 65%;
     width: 90vw;
     max-width: 60rem;
-    /* transition: all 0.3s ease-in; */
 }
 
 .educationitem {
@@ -46,19 +45,15 @@
     padding: 20px;
     border: 1px solid yellow;
     border-radius: 12px;
-    cursor: pointer;
 }
 
-/* .TimeLine:hover {
-    transform: translateY(-5px);
-} */
 
-.role {
+.institute {
     font-size: 20px;
     font-weight: 600;
 }
 
-.company {
+.program {
     font-size: 16px;
     font-weight: 500;
     color: rgba(177, 178, 179, 0.7);
@@ -68,24 +63,6 @@
     font-size: 14px;
     font-weight: 400;
     color: #707070;
-}
-
-.tags {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 10px !important;
-    align-items: center;
-}
-
-.tag {
-    font-size: 13px !important;
-    font-weight: 400;
-    color: #707070;
-    padding: 4px 10px;
-    border: 1px solid #707070;
-    border-radius: 20px;
 }
 
 .description {
@@ -99,5 +76,21 @@
     }
     .education-main-desc {
         margin-bottom: 35px;
+        font-size: 14px;
+    }
+    .education-main-title {
+        font-size: 38px;
+    }
+    .institute {
+        font-size: 18px;
+    }
+    .program {
+        font-size: 12px;
+    }
+    .date {
+        font-size: 12px;
+    }
+    .description {
+        font-size: 12px;
     }
 }
