@@ -29,11 +29,11 @@ const Navbar = () => {
             <img className='BurgerMenu' src={BurgerMenu} alt="Menu" onClick={() => setShowMenu(!showMenu)}/>
             <div className="burger-menu" style={{display: showMenu? 'flex' : 'none'}}>
                 <Link to='intro' smooth={true} offset={-100} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>About</Link>
-                <Link to='skills' smooth={true} offset={-35} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Skills</Link>
-                <Link to='experience' smooth={true} offset={-10} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Experience</Link>
-                <Link to='projects' smooth={true} offset={0} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Projects</Link>
-                <Link to='education' spy={true} smooth={true} offset={-10} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Education</Link>
-                <Link to='contact' spy={true} smooth={true} offset={0} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Contact</Link>
+                <Link to='skills' smooth={true} offset={-60} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Skills</Link>
+                <Link to='experience' smooth={true} offset={-50} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Experience</Link>
+                <Link to='projects' smooth={true} offset={-50} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Projects</Link>
+                <Link to='education' spy={true} smooth={true} offset={-50} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Education</Link>
+                <Link to='contact' spy={true} smooth={true} offset={-50} duration={1000} className='burger-menu-item' onClick={() => setShowMenu(false)}>Contact</Link>
             </div>
 
         </nav>

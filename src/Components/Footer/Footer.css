@@ -8,3 +8,9 @@
     font-size: small;
     font-weight: 300;
 }
+
+@media screen and (max-width: 510px ) {
+    .footer {
+        margin-top: 0px;
+    }
+}
