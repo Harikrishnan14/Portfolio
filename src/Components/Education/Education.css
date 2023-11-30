@@ -47,7 +47,6 @@
     border-radius: 12px;
 }
 
-
 .institute {
     font-size: 20px;
     font-weight: 600;
@@ -74,22 +73,28 @@
     .education-container {
         margin-bottom: 3rem;
     }
+
     .education-main-desc {
         margin-bottom: 35px;
         font-size: 14px;
     }
+
     .education-main-title {
         font-size: 38px;
     }
+
     .institute {
         font-size: 18px;
     }
+
     .program {
         font-size: 12px;
     }
+
     .date {
         font-size: 12px;
     }
+
     .description {
         font-size: 12px;
     }

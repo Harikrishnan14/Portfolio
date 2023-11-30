@@ -144,19 +144,24 @@
     .projects-main-title {
         font-size: 38px;
     }
+
     .projects-main-desc {
         font-size: 14px;
     }
+
     .projects {
         cursor: none;
         height: auto;
     }
+
     .projects:hover {
         transform: none;
     }
+
     .project-title {
         font-size: 18px;
     }
+
     .project-desc {
         font-size: 12px;
     }
@@ -166,13 +171,16 @@
     .category {
         display: none;
     }
+
     .category-res {
         display: flex;
         justify-content: center;
     }
+
     .projects-main-desc {
         margin-bottom: 30px;
     }
+
     .projects-container {
         margin-bottom: 3rem;
     }

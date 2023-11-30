@@ -92,9 +92,11 @@ p {
     .BurgerMenu {
         display: flex;
     }
+
     .nav-menu {
         display: none;
     }
+
     .contact-btn {
         display: none;
     }

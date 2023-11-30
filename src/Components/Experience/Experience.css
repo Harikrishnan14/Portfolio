@@ -92,27 +92,32 @@
     .TimeLine-container {
         margin-bottom: 3rem;
     }
+
     .experience-main-desc {
         margin-bottom: 35px;
         font-size: 14px;
     }
+
     .experience-main-title {
         font-size: 38px;
     }
+
     .role {
         font-size: 18px;
     }
-    
+
     .company {
         font-size: 14px;
     }
-    
+
     .date {
         font-size: 12px;
     }
+
     .description {
         font-size: 12px;
     }
+
     .tag {
         padding: 2px 5px;
         font-size: 12px !important;
