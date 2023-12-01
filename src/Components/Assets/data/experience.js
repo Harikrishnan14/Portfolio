@@ -1,9 +1,23 @@
 export const experience = [
   {
-    id: 0,
+    id: 2,
+    role: "Fullstack Developer Intern",
+    company: "RISESLABS",
+    date: "Dec 2023 - Present",
+    desc: "Currently interning at Riseslabs, I contribute as a Fullstack Developer, crafting innovative solutions with passion and precision.",
+    tags: [
+      "ReactJS",
+      "Bootstrap",
+      "NodeJs",
+      "Bootstrap",
+      "MongoDB",
+    ],
+  },
+  {
+    id: 1,
     role: "Jr. AI Developer",
     company: "TENZOTECH",
-    date: "Aug 2023 - Present",
+    date: "Aug 2023 - Oct 2023",
     desc: "As a Jr. AI Developer at Tenzotech, I honed skills in machine learning and collaborative innovation.",
     tags: [
       "Django",
@@ -15,7 +29,7 @@ export const experience = [
     ],
   },
   {
-    id: 1,
+    id: 0,
     role: "Python Full Stack Developer Intern",
     company: "ALTOS technologies",
     date: "Sept 2022 - Sept 2022",
