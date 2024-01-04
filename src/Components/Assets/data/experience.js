@@ -3,8 +3,8 @@ export const experience = [
     id: 2,
     role: "Fullstack Developer Intern",
     company: "RISESLABS",
-    date: "Dec 2023 - Present",
-    desc: "Currently interning at Riseslabs, I contribute as a Fullstack Developer, crafting innovative solutions with passion and precision.",
+    date: "Dec 2023 - Jan 2024",
+    desc: "Having successfully completed my internship at Riseslabs, I played a key role as a Fullstack Developer, passionately and precisely crafting innovative solutions.",
     tags: [
       "ReactJS",
       "Bootstrap",
